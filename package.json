@@ -1,0 +1,22 @@
+{
+  "name": "openai-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon"
+  },
+  "author": "leeou",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^3.2.1",
+    "webflow-api": "^1.2.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.21",
+    "winston": "^3.8.2"
+  }
+}
