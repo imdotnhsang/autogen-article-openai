@@ -9,7 +9,11 @@ Do not forget to add env vars following [env sample](.env.sample)
 #### Run the command
 
 ```bash
-  node src/index or yarn start:dev
+  node src/index
+```
+or
+```bash
+  yarn start:dev
 ```
 
 Cheers 🍺🍺
