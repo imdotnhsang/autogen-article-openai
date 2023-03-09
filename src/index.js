@@ -23,3 +23,5 @@ const createdPostOnWebflow = await webflowService.createOnePostOnWebflow(
 );
 
 await webflowService.publishOnePostOnWebflow(createdPostOnWebflow.data._id);
+
+console.log("Published a post on Webflow!");
